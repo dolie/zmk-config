@@ -70,7 +70,7 @@
    &trans     &kp PIPE &kp LBKT &kp RBKT &kp LBRC &kp RBRC    &trans    &mt RCMD EQUAL &mt RCTRL PLUS &kp RALT &kp RSHFT &trans
                             &trans   &trans   &trans      &trans    &trans    &trans
         >;
-      }
+      };
 
 // todo : do not disturb ? + globe emoji ?)
       adjust_layer {
@@ -80,7 +80,7 @@
 // |      |  🌍  |     |  🔅  |  🔆  |    |    BT ➡️ | CLR | BT1 | BT2 | BT3 | BT4 | BT5  |
 //                    |      |      |    |         |     |     |     |
         bindings = <
-   &trans &trans &kp C_PREV   &kp C_PP     &kp C_NEXT   &trans                &trans &trans &trans &trans &trans &kp C_SLEEP
+   &trans &trans &kp C_PREV   &kp C_PP     &kp C_NEXT   &trans                &trans &trans &trans &trans &trans &kp C_PWR
    &trans &trans &kp C_VOL_DN &kp C_MUTE   &kp C_VOL_UP &kp C_VOICE_COMMAND   &rgb_ug RGB_TOG &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_SPI &rgb_ug RGB_SPD &rgb_ug RGB_EFF
    &trans &trans &trans       &kp C_BRI_DN &kp C_BRI_UP &trans                &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5
                                                        &trans &trans &trans   &trans &trans &trans
