@@ -39,7 +39,7 @@
         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &td0
    &kp CAPS  &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp GRAVE &mt LSHFT Z &mt LALT X &mt LCTRL C &mt LCMD V &kp B   &kp N &mt RCMD M &mt RCTRL COMMA &mt RALT DOT &mt RSHFT FSLH &kp NUBS
+   &kp GRAVE &mt LSHFT Z &mt LALT X &mt LCTRL C &mt LCMD V &kp B   &kp N &mt RCMD M &mt RCTRL COMMA &mt RALT DOT &mt RSHFT FSLH &kp NUHS
                &kp DEL &lt 1 TAB &kp SPACE   &kp BSPC &lt 2 RET &kp ESC
           >;
       };
@@ -60,17 +60,17 @@
 
       raise_layer {
 // -----------------------------------------------------------------------------------------
-// |      |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  _   |
-// |      |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |  -   |
+// |  ±   |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  _   |
+// |  §   |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |  -   |
 // |      | "|" |  [  |  ]  |  {  |  }  |   |     |  =  |  +  | RALT|RSHFT|      |
 //           | DEL | Adjust Layer | SPC |   | BKSP | held key | ESC OTHR |
                         bindings = <
-   &kp TILDE2 &kp EXCL &kp AT   &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp STAR &kp LPAR &kp RPAR &kp UNDER
-   &kp NUHS   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5      &kp N6    &kp N7    &kp N8   &kp N9   &kp N0   &kp MINUS
+   &kp PIPE2 &kp EXCL &kp AT   &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp STAR &kp LPAR &kp RPAR &kp UNDER
+   &kp NUBS   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5      &kp N6    &kp N7    &kp N8   &kp N9   &kp N0   &kp MINUS
    &trans     &kp PIPE &kp LBKT &kp RBKT &kp LBRC &kp RBRC    &trans    &mt RCMD EQUAL &mt RCTRL PLUS &kp RALT &kp RSHFT &trans
                             &trans   &trans   &trans      &trans    &trans    &trans
         >;
-      };
+      }
 
 // todo : do not disturb ? + globe emoji ?)
       adjust_layer {
