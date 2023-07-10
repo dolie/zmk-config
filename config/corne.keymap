@@ -35,12 +35,12 @@
 // | CAPS |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
 // | ` ~  |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   | , < | . > | / ? | \ "|"|
 // Hold on|LSHFT| LALT|LCTRL|LCMD |  bottom row   | RCMD |RCTRL|RALT |RSHFT|
-//                | DEL | LWR TAB | SPC |   | BKSP | RSE RETURN | ESC OTHR |
+//                | DEL | LWR TAB | SPC |   | BKSP | RSE RETURN | ESC |
         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &td0
    &kp CAPS  &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp GRAVE &mt LSHFT Z &mt LALT X &mt LCTRL C &mt LCMD V &kp B   &kp N &mt RCMD M &mt RCTRL COMMA &mt RALT DOT &mt RSHFT FSLH &kp NUBS
-               &kp DEL &lt 1 TAB &kp SPACE   &kp BSPC &lt 2 RET &lt 4 ESC
+               &kp DEL &lt 1 TAB &kp SPACE   &kp BSPC &lt 2 RET &kp ESC
           >;
       };
 
@@ -72,10 +72,7 @@
         >;
       };
 
-// media (do not disturb + globe emoji)
-// BLE switch
-// RGB Underglow
-// Power
+// media (do not disturb + globe emoji ?)
       adjust_layer {
 // -----------------------------------------------------------------------------------------
 // |      |     |  ⏪  |  ⏯️  |  ⏩  | 🌙  |        |     |     |     |     |     |  🛌   |
